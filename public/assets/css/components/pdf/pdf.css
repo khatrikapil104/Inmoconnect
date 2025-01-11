@@ -1,0 +1,138 @@
+#toolbar_certificate {
+    position: relative;
+}
+
+.toolbar_between {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#toolbar_certificate_one {
+    height: 85px;
+    background-color: var(--b_primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.zoom_header {
+    position: relative;
+}
+
+.zoom_header::before {
+    content: "";
+    background-color: var(--purple_one);
+    width: 1px;
+    height: 40px;
+    margin: 0 25px;
+}
+
+.button_first_zoom {
+    background-color: var(--purple_two);
+    padding: 0px 3px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoom_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple_two);
+    color: white;
+    margin: 0 12px;
+    padding: 5px 5px;
+}
+
+.toolbar_certificate_content {
+    background-color: var(--background);
+    min-height: 100vh;
+    position: relative;
+}
+
+.toolbar_certificate_content {
+    padding: 35px 0 0 0px;
+}
+
+.toolbar_certificate_content a {
+    position: absolute;
+    left: 20px;
+}
+
+.certificate_main-img {
+    text-align: center;
+}
+.xml_feed {
+    border: 1px solid #38319233;
+    border-radius: 8px;
+}
+.xml_url {
+    border-bottom: 1px solid #38319233;
+}
+ul.xml_list li {
+    font-size: 16px;
+    position: relative;
+    padding-top: 16px;
+    padding-left: 40px;
+}
+ul.xml_list li::before {
+    position: absolute;
+    content: "";
+    background-image: url("/img/right_mxl_icon.svg");
+    width: 20px;
+    height: 20px;
+    left: 0;
+}
+.activity_log-collapse {
+    background: #383192;
+    padding: 9px 30px;
+}
+.activity_log-details {
+    height: 250px;
+    overflow-y: auto;
+    margin-right: -18px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+}
+.activity_log-height {
+    height: 353px;
+}
+.activity_log-details p {
+    padding: 9px 30px;
+    word-break: break-all;
+}
+.activity_log-details p:nth-child(odd) {
+    background: white;
+}
+
+.activity_log-details p:nth-child(even) {
+    background: #38319208;
+}
+.xml_button-content {
+    margin-top: 30px;
+    border: 1px solid #17213a1a;
+    border-radius: 8px;
+    padding: 20px;
+}
+.xml_border-top {
+    border-top: 1px solid #17213a1a;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.content_setup {
+    display: none;
+}
+.form_step-copy {
+    width: 576px;
+}
+
+@media (max-width: 600px) {
+    .activity_log-details p {
+        padding: 9px 9px;
+    }
+}

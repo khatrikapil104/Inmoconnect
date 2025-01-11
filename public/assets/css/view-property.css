@@ -1,0 +1,289 @@
+.view_property-page_slider {
+    /* width: calc(100% - 10%); */
+    z-index: 70;
+    margin: 0 60px;
+    border-bottom: 1px solid #17213a33;
+}
+.view_property-page_slider {
+    transition: position 0.3s ease, top 0.3s ease;
+}
+.view_property-page_slider.fixed {
+    position: fixed;
+    top: 50px;
+    background: #f6f6ff;
+    z-index: 1;
+    width: -webkit-fill-available;
+}
+.tab_slider-main #view_property-page_slider_next {
+    top: -67px;
+    right: -94%;
+}
+.tab_slider-main #view_property-page_slider_next:before {
+    background-image: url(/img/right-slider-view-p.svg);
+    width: 60px;
+    height: 58px;
+    position: absolute;
+    content: "" !important;
+    box-shadow: none;
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 0;
+}
+.tab_slider-main #view_property-page_slider_prev:before {
+    background-image: url(/img/left-slider-view-p.svg);
+    width: 60px;
+    height: 58px;
+    position: absolute;
+    content: "" !important;
+    box-shadow: none;
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 0;
+}
+.tab_slider-main #view_property-page_slider_next,
+.tab_slider-main #view_property-page_slider_prev {
+    position: relative;
+}
+
+/* #view_property-page_slider_prev.fixed,
+.tab_slider-main #view_property-page_slider_next {
+    top: -67px;
+    right: -95%;
+} */
+#view_property-page_slider_next.fixed {
+    position: fixed;
+    top: 50px;
+    z-index: 1;
+    left: auto;
+    top: 50px;
+    right: 90px;
+}
+.tab_slider-main #view_property-page_slider_prev {
+    top: -67px;
+    left: 0;
+}
+#view_property-page_slider_next.fixed::before {
+    box-shadow: 0px 2px 3px 0px #ebebf4;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #17213a33;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #f6f6ff;
+}
+/* #view_property-page_slider_prev.fixed {
+    top: 50px;
+    left: 0px;
+} */
+#view_property-page_slider_prev.fixed {
+    position: fixed;
+    top: 50px;
+    z-index: 1;
+    left: 295px;
+    right: inherit;
+}
+#view_property-page_slider_prev.fixed::before {
+    box-shadow: 0px 2px 3px 0px #ebebf4;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #17213a33;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f6f6ff;
+}
+.property-view_border {
+    border-top: 1px solid #d5d6d8;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.tab-teaser {
+    position: relative;
+}
+.tab-teaser button.prev-tab {
+    position: absolute;
+    top: 5px;
+    left: -9px;
+}
+.tab-teaser button.next-tab {
+    position: absolute;
+    right: 40px;
+    top: -3px;
+}
+.tab-teaser .next-tab:before {
+    background-image: url(/img/right-slider-view-p.svg);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    content: "" !important;
+    box-shadow: none;
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 0;
+    background-color: #fff;
+}
+.tab-teaser .prev-tab:before {
+    background-image: url(/img/left-slider-view-p.svg);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    content: "" !important;
+    box-shadow: none;
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 0;
+    background-color: #fff;
+}
+.view_property-page_slider button.tablinks {
+    padding: 18px 0;
+}
+.view_property-page_slider button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* padding: 14px 16px; */
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    position: relative;
+}
+.view_property-page_slider button.active:after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: #383192;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.view_property-page_slider
+    .slick-slide.slick-current.slick-active
+    button.tablinks {
+    position: relative;
+}
+
+.view_property-page_slider .slick-list {
+    border-bottom: 1px solid #17213a33;
+}
+
+.view_property-page_slider .slick-next {
+    right: 40px;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+.view_property-page_slider .slick-prev {
+    right: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+
+.view_property-page_slider.slick-initialized .slick-slide {
+    text-align: center;
+}
+.property-view-feature h6 {
+    padding: 20px 0 0 25px;
+}
+.property-view-feature h6:before {
+    content: "";
+    position: absolute;
+    background-image: url(/img/feature_view.svg);
+    width: 16px;
+    height: 16px;
+    left: 3px;
+}
+.property-blur:before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+.propert-price-blur:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 3ch;
+    color: transparent;
+    z-index: 0;
+    backdrop-filter: blur(8px);
+    width: 100%;
+    height: 100%;
+    direction: ltr;
+}
+
+.prices_propert {
+    width: max-content;
+    display: block;
+}
+
+.blur-small-text {
+    max-width: 486px;
+}
+.action-search .form-group {
+    margin-top: 0 !important;
+}
+
+.action-search .form-group label {
+    display: none;
+}
+
+.dashboard-round_one {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.normal_textarea .form-group {
+    margin-top: 0 !important;
+}
+.tab_slider button.active::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: #383192;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tabcontent {
+    padding: 60px 12px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+}
+.manage_padding {
+    padding: 70px 0 105px 0;
+}
+
+.modal_developer-padding {
+    padding: 20px 30px 30px 30px;
+}
+
+.developer_img_preview .slick-list .slick-track {
+    display: flex;
+    justify-content: space-between;
+}
+
+.developer_img_preview .slick-list .slick-track::before,
+.developer_img_preview .slick-list .slick-track::after{
+    display: none;
+}
+
+.developer_img_preview .slick-list .slick-track .slick-slide {
+    width: 170px !important;
+    height: 100px;
+    margin: 0 0 0 0;
+}
+
+.developer_img_preview .slick-list .slick-slide img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}

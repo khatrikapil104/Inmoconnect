@@ -1,0 +1,21 @@
+.slick-next:before,
+.slick-prev:before {
+    opacity: 1 !important;
+}
+.tab_slider .slick-next {
+    right: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+
+.tab_slider .slick-prev {
+    left: -61px;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+
+.tab_slider .slick-slide.slick-current.slick-active button.tablinks {
+    position: relative;
+}

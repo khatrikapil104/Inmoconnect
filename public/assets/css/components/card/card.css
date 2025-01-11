@@ -1,0 +1,147 @@
+.dashboard-card {
+    padding: 27px 20px;
+    height: 100%;
+}
+.slider_card {
+    border-radius: 9px;
+    background: var(--white);
+    box-shadow: var(--box-shadow-one);
+    padding: 15px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+}
+.slider_card:before {
+    content: "";
+    background: var(--b_primary);
+    width: 5px;
+    height: 52px;
+    position: absolute;
+    left: 0;
+}
+.owner_slider-name {
+    border-bottom: 1px solid var(--light-grey_five);
+}
+.text-project_slider {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.slick-slider_main {
+    border-bottom: 1px solid var(--white_thirteen);
+    padding-top: 33px;
+}
+.main-card-img {
+    width: 250px;
+    height: 198px;
+}
+.main-card-small-img {
+    width: 100px;
+    height: 100px;
+}
+.main-card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: fill;
+}
+.small-left-card {
+    border-radius: 8px;
+    border: 1px solid var(--white_four);
+    background: var(--white_twenty-one);
+    padding: 10px;
+}
+.dashboard-round {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.dashboard_img {
+    border-radius: 5px;
+    border: 1px solid var(--white);
+    box-shadow: 0px 0px 3px 1px rgba(56, 49, 146, 0.15);
+    width: 24px;
+    height: 24px;
+    margin-left: -8px;
+}
+.content {
+    transition: margin-left 0.5s;
+}
+.main-small-card-three {
+    width: 100px;
+    height: 100px;
+}
+/* Property Search */
+.property_search-main-card {
+    padding: 1px 15px 17px 15px;
+}
+.select_with_checkbox {
+    caret-color: transparent;
+}
+.border_property-card {
+    border-top: 1px solid #38319266;
+}
+.card-show-description {
+    grid-template-columns: repeat(3, 1fr);
+}
+.new_dashboard_agent {
+    background: #383192;
+    box-shadow: 5px 5px 4px 0px #5b5b5b33;
+    padding: 20px;
+    border-radius: 8px;
+    height: 200px;
+}
+.new_dashboard-left_main{
+    height: 200px;
+    width: 200px;
+}
+.dashboard_agent-line {
+    border-left: 1px solid #ffffff80;
+    padding-left: 12px;
+    margin-left: 12px;
+}
+.dashboard_agent-line:first-child {
+    border: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.border-empty-dashboard {
+    border-bottom: 1px solid #dbdbdb;
+}
+.today_appointment-dashboard {
+    border-radius: 8px;
+    background: var(--Main-Colour, #383192);
+    width: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+.today_appointment-dashboard div {
+    color: #fff;
+}
+.card-units {
+    background: #3831920d;
+    border-radius: 8px;
+    padding: 8px 45px 8px 12px;
+}
+.agent_commision-card h6 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #38319214;
+    padding: 7px 12px;
+    border-radius: 8px;
+}
+.main_card_image_one {
+    width: 300px;
+    height: 234px;
+    margin-right: 10px;
+}
+

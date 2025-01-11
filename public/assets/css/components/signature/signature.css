@@ -1,0 +1,14 @@
+#canvas-wrap canvas {
+    border: 1px solid #383192;
+    background: #3831920a;
+    border-radius: 15px;
+}
+#canvas-wrap {
+    position: relative;
+}
+#download_sig-pad {
+    border: 1px solid transparent;
+}
+#download_sig-pad:hover {
+    border: 1px solid var(--b_primary);
+}

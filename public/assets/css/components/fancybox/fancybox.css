@@ -1,0 +1,106 @@
+.gallery_sec {
+    height: 406px;
+    overflow: hidden;
+}
+
+.gallery_sec a {
+    position: relative;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.gallery_sec a::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery_sec img {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.gallery_sec a:hover img {
+    position: relative;
+    width: 100%;
+}
+
+.gallery_sec a:hover img {
+    opacity: 0.2;
+}
+
+.gallery_sec a:hover::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: url(https://i.ibb.co/3fMkjjF/Resize.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.gallery_sec a:hover img {
+    opacity: 1;
+}
+
+.gallery_sec a:hover::before {
+    content: "";
+    background: transparent;
+}
+
+html.with-fancybox body.hide-scrollbar {
+    width: 100%;
+    padding-right: 0 !important;
+    overscroll-behavior-y: none;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+html.with-fancybox body {
+    overflow-x: hidden !important;
+    overflow-y: auto;
+}
+.lSSlideOuter .lSPager.lSpg {
+    display: none;
+}
+.lSSlideWrapper {
+    height: 220px !important;
+    width: 300px;
+}
+ul#lightSliderVertical li a img {
+    height: 220px;
+    border-radius: 8px;
+}
+.lSAction > a {
+   
+    width: 20px !important;
+    height: 20px !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    opacity: 1 !important;
+}
+.lSSlideOuter.vertical .lSAction > .lSPrev {
+    left: 7% !important;
+    top: 50% !important;
+    background-image: url(/img/slider_fancybox_two.svg) !important;
+}
+.lSSlideOuter.vertical .lSAction > .lSNext {
+    left: 95% !important;
+    top: 50% !important;
+    background-image: url(/img/slider_fancybox_one.svg) !important;
+}

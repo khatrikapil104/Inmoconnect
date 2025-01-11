@@ -1,0 +1,248 @@
+.step-form-pading {
+    padding: 0 90px 0 90px;
+}
+.profile-setup .backBtn {
+    position: absolute;
+    top: 24px;
+    left: 98px;
+}
+.row-height-agent {
+    height: calc(100vh - 121px);
+}
+.left-fixed-agent {
+    border-radius: 20px 0px 0px 20px;
+}
+.agent-slider {
+    border-radius: 15px;
+    background: rgba(245, 245, 245, 0.3);
+    max-width: 462px;
+}
+.slick-slider .element {
+    padding: 42px 35px 15px 35px;
+    color: var(--white);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slick-slider .slick-disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+ul.slick-dots {
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.slick-dots li button {
+    width: 6px;
+    height: 6px;
+    background-color: var(--purple_five);
+    border-radius: 50%;
+    font-size: 0px;
+    border: 0;
+}
+.slick-dots li.slick-active button {
+    background-color: var(--b_primary);
+}
+.right-fixed-agent {
+    border-radius: 0px 20px 20px 0px;
+    border-top: 1px solid var(--white_two);
+    border-right: 1px solid var(--white_two);
+    border-bottom: 1px solid var(--white_two);
+    background: var(--white);
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.right-fixed-agent .crm-image {
+    padding-top: 60px;
+}
+
+.logo-step-form {
+    width: 232px;
+}
+
+.edit-profile-img {
+    bottom: 0px;
+    border-radius: 0 0 20px 20px;
+}
+
+.tab-pane:first-child {
+    display: block;
+}
+
+#step1 .crm-profile-image-upload-container label img {
+    width: 120px;
+    height: 120px;
+}
+
+.crm-profile-image-upload-container label {
+    padding: 0;
+}
+.progress-wrap {
+    margin: auto;
+    display: table;
+    position: relative;
+    padding: 0 0 100px 0;
+}
+
+.line-progress-bar {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.progress-wrap div ul {
+    display: flex;
+    width: 613px;
+    list-style: none;
+    padding: 0px;
+    margin: initial;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.progressbar-dots {
+    display: inline-flex;
+    /* border: #949494 solid 4px; */
+    opacity: 0.5;
+    background: rgba(56, 49, 146, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--white_eleven);
+    font-size: 20px;
+    margin-left: 0px;
+    color: var(--white_eleven);
+}
+
+.progressbar-dots span {
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    margin-top: 60px;
+    float: left;
+    margin-left: -30px;
+    display: none;
+}
+
+.progressbar-dots.active {
+    color: var(--white);
+    opacity: 1;
+    border: 1px solid rgba(56, 49, 146, 1);
+    padding: 5px;
+    background: rgba(56, 49, 146, 1) content-box;
+}
+
+.progressbar-dots:before {
+    height: 6px;
+    background: radial-gradient(circle closest-side, blue 90%, #0000) 0/12px
+        100%;
+    content: "";
+    width: 122px;
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: 12px;
+}
+
+.active_one:before {
+    background: radial-gradient(
+            circle closest-side,
+            rgba(3, 161, 0, 1) 100%,
+            #0000
+        )
+        0/12px 100%;
+    opacity: 1;
+}
+
+span.progressbar-dots.active_one {
+    background: rgba(3, 161, 0, 1);
+    opacity: 1;
+    padding: 0;
+}
+.active_two {
+    color: rgba(3, 161, 0, 1);
+}
+.active_three {
+    color: var(--b_primary);
+}
+
+span.progressbar-dots.active_one:after {
+    content: "\f00c";
+    font-family: "Font Awesome 6 free";
+    position: absolute;
+    top: 5px;
+    left: 6px;
+}
+
+.checkout-bar li span {
+    display: block;
+    position: relative;
+}
+
+.final-dots::before {
+    background: none !important;
+}
+.row-border {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.edit_profiile-tab_one {
+    padding: 20px;
+}
+.agent-slider .slick-track {
+    z-index: -1;
+    position: relative;
+}
+.extra_padding .form-group label {
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.extra_padding_two .form-group label {
+    padding-top: 26px;
+}
+.team_member_card {
+    border: 1px solid #17213a1a;
+    border-radius: 8px;
+    padding: 20px;
+}
+.border_team {
+    border-top: 1px solid #17213a1a;
+}
+.dev_age_setup_head {
+    background-color: #ffffff;
+    padding: 20px 0px;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.dev_age_setup_head .dev_age_btn {
+    color: #383192;
+    font-weight: 400;
+    background-color: #3831921a;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 14px;
+}

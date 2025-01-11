@@ -1,0 +1,332 @@
+/* login-button */
+
+.login-white-button,
+.login-white-button:focus {
+    /* width: 180px; */
+    text-align: center;
+    /* padding: 9px 0; */
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+}
+
+.login-white-button:hover {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+.login-create-button button,
+.login-create-button button:focus {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 180px;
+    padding: 9px 0; */
+    padding: 10px 15px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+.login-create-button button:hover {
+    background: transparent;
+    color: var(--b_primary);
+    border: 1px solid var(--b_primary);
+}
+.accept-button {
+    padding: 5px 21px;
+}
+.reject-button {
+    padding: 5px 21px;
+}
+.viewPropertyBtn {
+    padding: 9px 16px;
+}
+
+button#viewAgentBtn:focus,
+.viewPropertyBtn:focus {
+    color: var(--white_grey);
+}
+.slider-top-right {
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+.Overdue {
+    color: var(--pink_three);
+    background: var(--white_eight);
+}
+
+.complete {
+    color: var(--green);
+    background: var(--white_seven);
+}
+.in_progress {
+    background: var(--white_nine);
+    color: var(--b_primary);
+}
+
+.edit_progress-button {
+    padding: 7px 15px;
+}
+.span_active {
+    color: var(--green_three);
+    border-radius: 6px;
+    background: var(--white_seven);
+    padding: 5px 23px;
+}
+
+.span_complete {
+    color: var(--purple_six);
+    border-radius: 6px;
+    background: var(--white_nine);
+    padding: 5px 23px;
+}
+
+.span_pending {
+    color: var(--pink_three);
+    border-radius: 6px;
+    background: var(--white_eight);
+    padding: 5px 23px;
+}
+.delete_project {
+    border: 1px solid var(--b_primary);
+    background: transparent;
+    color: var(--b_primary);
+}
+
+.delete_project:hover {
+    border: 1px solid;
+    background: var(--Gradient-one);
+    color: var(--white);
+}
+.complete_project {
+    background-color: var(--white_two);
+}
+.complete_project:focus {
+    color: var(--white);
+}
+.Gradient_button:hover {
+    background: transparent;
+    color: var(--b_primary);
+    border: 1px solid var(--b_primary);
+}
+.Gradient_button:focus {
+    color: var(--white);
+    background: var(--Gradient-one);
+    border: none;
+}
+.chat-m-button {
+    padding: 13px 0 18px 0;
+}
+.chat-m-button button {
+    border: 1px solid var(--b_primary);
+}
+.addAgentBtn {
+    padding: 5px 17px;
+}
+
+.requestPendingBtn {
+    padding: 5px 12px;
+}
+.viewAgentbtn {
+    /* width: 99px;
+    height: 28px; */
+    padding: 5px 14px;
+}
+.rejectedBtn {
+    padding: 3px 23px;
+}
+.gardient-button:focus {
+    color: var(--white);
+}
+
+.gardient-button:hover {
+    background: transparent;
+    color: var(--b_primary);
+    border: 1px solid var(--b_primary);
+}
+.next-btn {
+    margin: 30px 0 40px 0;
+}
+.addNewCertificateBtn {
+    padding: 10px 15px;
+    width: 180px;
+}
+.gradiant-hover:hover {
+    background: var(--Gradient-one);
+    color: var(--white_grey);
+}
+
+.gradiant-hover:focus {
+    color: var(--white_grey);
+}
+
+.icon-plus:before {
+    color: var(--b_primary) !important;
+}
+.dot-button {
+    width: 150px;
+    height: 40px;
+    background-color: var(--white_grey);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow_two);
+    padding: 0 15px;
+}
+.image-button {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    padding: 10px 13px;
+}
+.icon-error-icon {
+    color: var(--red);
+}
+
+.icon-error-icon1:before {
+    content: "\e934";
+    color: var(--b_primary);
+}
+
+.icon-warning-icon {
+    color: var(--yellow_two);
+}
+.header-right-button:hover .icon-To_do_list::before,
+.header-right-button:hover .icon-schedule_add:before,
+.header-right-button:hover .icon-view-files:before {
+    color: var(--white);
+}
+.common-label-css .toggle-password {
+    top: 45%;
+}
+
+.common-has-help .toggle-password {
+    top: 57%;
+}
+
+.common-has-help .form-control.is-invalid ~ .toggle-password {
+    top: 43%;
+}
+
+.eye_reset .form-control.is-invalid ~ .toggle-password {
+    top: 12%;
+}
+
+#loginForm .form-control.is-invalid ~ .toggle-password {
+    top: 16%;
+}
+#registerForm .form-control.is-invalid ~ .toggle-password {
+    top: 10%;
+}
+.change-password-img img {
+    width: 100px;
+    height: 100px;
+}
+.border-button:hover {
+    border: none;
+    background: var(--Gradient-one);
+    color: var(--white_grey);
+}
+.border-button:hover .icon-done:before {
+    color: #f3f4f6;
+}
+
+.delete_project:hover .icon-Export:before {
+    color: #fff;
+}
+
+.small-button {
+    padding: 10px 15px;
+}
+.message-card-button {
+    padding: 10px 28px;
+}
+.add_property_button {
+    padding: 3px 12px;
+}
+.tab-button-save {
+    background: #3831921a;
+    padding: 2px 8px;
+}
+/* .saved_search_icon {
+    opacity: 0.5; 
+} */
+
+/* .save_search-checkbox {
+    opacity: 1 !important; 
+} */
+
+@media only screen and (max-width: 768px) {
+    .login-white-button {
+        width: 150px;
+    }
+    .login-create-button button {
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 567px) {
+    .login-white-button {
+        width: 125px;
+    }
+    .login-create-button button {
+        width: 125px;
+    }
+}
+.button_tab-flex {
+    padding: 2px 10px;
+    background-color: #f6f6ff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.button_tab-flex span {
+    font-size: 14px;
+    color: var(--b_primary);
+}
+.edit_profile_agent {
+    padding: 8px;
+    /* margin-bottom: 10px; */
+    color: var(--b_primary);
+    background-color: #fff;
+    border: 1px solid var(--b_primary);
+}
+.edit_profile_agent:hover {
+    background: var(--Gradient-one);
+    border: 1px solid var(--grey);
+    /* margin-left: 1px;
+    margin-right: 1px; */
+    color: var(--white);
+    opacity: 0.8;
+}
+.edit_profile_agent:hover i {
+    color: var(--white);
+}
+.blur_btn_gradiant {
+    /* transition: all 0.3s ease-in-out; */
+    border-radius: 8px;
+    position: relative;
+    background-image: linear-gradient(var(--white_grey), var(--white_grey)),
+        radial-gradient(circle at top left, #26b1d8 0%, #af31d3 102.13%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.blur_btn_gradiant:hover {
+    background: var(--b_primary);
+    color: var(--white);
+}
+
+.bg_gradiant_hover:hover {
+    background: var(--Gradient-one);
+    color: var(--white_grey);
+}
+
+.bg_gradiant_hover:focus {
+    color: var(--white);
+}

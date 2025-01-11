@@ -1,0 +1,278 @@
+#sidebar-wrapper {
+    z-index: 1;
+    position: fixed;
+    top: 50px;
+    left: 265px;
+    width: 0;
+    height: 100%;
+    margin-left: -265px;
+    overflow-y: auto;
+    background: var(--white);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.sidebar-nav {
+    position: absolute;
+    top: 16px;
+    width: 265px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 2px;
+}
+.sidebar-nav li {
+    position: relative;
+    transition: all 0.55s linear !important;
+}
+.sidebar-nav li a,
+button.dropdown-btn {
+    color: var(--B_blue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 2px 20px;
+}
+
+#menu-toggle-2.collapse:not(.show) {
+    display: block;
+}
+.sidebar-nav li a i {
+    transition: all 0.55s linear !important;
+    padding: 9px 10px 9px 0px;
+}
+span.side-listing {
+    /* padding-left:9px; */
+    color: var(--B_blue);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+/* //////////////sidebar-dropdown/////////////////// */
+.sidebar-dropdown-button {
+    position: relative;
+    width: 100%;
+}
+.dropdown-one .arrow:before {
+    content: "";
+    position: absolute;
+    right: 26px;
+    top: 14px;
+    z-index: -1;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid var(--B_blue);
+    border-left: 2px solid var(--B_blue);
+    transform: rotate(220deg);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.dropdown-one.open .arrow:before {
+    transform: rotate(41deg);
+    border-top: 2px solid var(--b_primary);
+    border-left: 2px solid var(--b_primary);
+}
+li.dropdown-one.open a i {
+    color: var(--b_primary);
+}
+li.dropdown-one.open a.sidebar-dropdown-button span.side-listing {
+    color: var(--b_primary);
+}
+.dropdown-content-one a.none_black.active::before {
+    border: 1px solid var(--b_primary);
+    background-color: var(--b_primary);
+}
+.dropdown-content-one {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: #ffffff;
+}
+.dropdown-content-one a.none_black {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 7px;
+    transition: all 0.55s linear !important;
+}
+.dropdown-content-one a:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--B_blue);
+    background-color: transparent;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+a.none_black.active {
+    color: var(--b_primary);
+}
+.sidebar-nav li a:hover i {
+    transform: scale(1.2);
+}
+.sidebar-nav li:hover i {
+    color: var(--b_primary);
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+.sidebar-nav li a img {
+    width: 18px;
+    height: 18px;
+}
+#wrapper.toggled-2 #sidebar-wrapper {
+    z-index: 9999;
+    border-radius: 0;
+}
+.sidebar-nav li:hover a.sidebar-menu {
+    color: var(--b_primary);
+}
+#wrapper.toggled-2 #sidebar-wrapper li span.side-listing {
+    /* visibility: hidden; */
+    display: none;
+}
+.sidebar-nav li:hover span.side-listing {
+    color: var(--b_primary);
+}
+#wrapper.toggled-2 #sidebar-wrapper .dropdown-one .arrow:before {
+    display: none;
+}
+/* #wrapper.toggled-2 #sidebar-wrapper .dropdown-content-one{
+    display:none;
+} */
+#wrapper.toggled-2 #sidebar-wrapper .sidebar-nav li i:hover {
+    color: var(--b_primary);
+}
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+/* /////////////////////////////////////////// */
+
+.sidebar_one {
+    right: 0;
+    height: 100%;
+    width: 0;
+    top: 0;
+    position: fixed;
+    padding-top: 30px;
+    color: var(--black);
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 999;
+    background: var(--white);
+    box-shadow: -5px 0px 5.1px 0px rgba(153, 153, 153, 0.25);
+}
+.close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.sidebar_one-content {
+    text-align: left;
+    padding: 0px 30px 0px 30px;
+}
+.order-responsive {
+    order: 2;
+}
+.sidebar_one-content-card {
+    border-radius: 8px;
+    border: 1px solid var(--white_two);
+    margin: 20px 30px 30px 30px;
+    padding: 15px;
+    text-align: left;
+}
+#textarea_sidebar {
+    width: 100%;
+    height: 130px;
+    padding: 20px;
+    border: 1px solid var(--B_blue);
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+}
+.hide-toggle {
+    display: none !important;
+}
+.dropdown-btn.active ~ #jsDropdown {
+    height: auto;
+    opacity: 1;
+    transition: all 0.55s linear !important;
+}
+
+.dropdown-content-one.no-transition {
+    transition: none !important;
+}
+#wrapper.toggled-2 #sidebar-wrapper .dropdown-content-one {
+    max-height: 0;
+}
+
+.sidebar-menu.active span.side-listing {
+    color: var(--b_primary);
+}
+.sidebar-menu.active i {
+    color: var(--b_primary);
+}
+.real-imno_flex {
+    background: rgba(56, 49, 146, 1);
+    margin: 0 10px;
+    box-shadow: 0px 0px 10px 0px rgba(56, 49, 146, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+}
+.fixed_sidebar {
+    height: calc(100vh - 165px);
+    overflow-y: scroll;
+    margin-right: 7px;
+}
+.sidebar_button {
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 0px #0000001f;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+}
+.sidebar_accept_button {
+    color: #00b227;
+}
+.sidebar_accept_button:hover {
+    box-shadow: 2px 2px 4px 0px #00b22740;
+    border: 1px solid #00b227;
+}
+.sidebar_reject_button {
+    color: #db1b1b;
+}
+.sidebar_reject_button:hover {
+    border: 1px solid #db1b1b;
+    box-shadow: 2px 2px 4px 0px #db1b1b40;
+}
+.sidebar_download-format {
+    left: 0;
+    transform: translateX(0%);
+    margin-right: auto !important;
+    margin: 0;
+    color: var(--b_primary);
+}
+#wrapper.toggled-2 #view_property-page_slider_prev.fixed {
+    left: 86px;
+}

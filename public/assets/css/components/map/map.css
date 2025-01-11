@@ -1,0 +1,33 @@
+.gm-style .gm-style-iw-tc::after {
+    height: 0;
+    width: 0;
+}
+
+.gm-style .gm-style-iw-d {
+    padding: 0 15px 15px 0;
+    overflow: auto !important;
+}
+
+.map_text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.gm-style .map_text img {
+    width: 86px !important;
+    height: 86px !important;
+    max-width: 86px !important;
+    border-radius: 5px;
+}
+
+.map-property-address {
+    max-width: 186px;
+}
+
+.gm-ui-hover-effect {
+    display: none !important;
+}
+.dashboard_map-empty {
+    height: 401px;
+}

@@ -1,0 +1,138 @@
+.dynamic-dropzone-container {
+    border-radius: 8px;
+    border: 1px dashed var(--Black-Grey-Color, var(--B_blue));
+    background: rgba(21, 21, 21, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 189px;
+    /* padding: 50px 0; */
+    cursor: pointer;
+}
+
+.dropzone .dz-preview.dz-image-preview {
+    background: transparent !important;
+}
+
+.dropzone .dz-preview .dz-remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+button.dz-button small {
+    color: var(--Black-Grey-Color, var(--B_blue));
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.dropzone .dz-preview .dz-image {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.dropzone .dz-preview .dz-image img {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.dropzone .dz-preview {
+    min-height: fit-content !important;
+    margin: 17px 0 17px 17px;
+}
+
+.dropzone .dz-preview .dz-progress {
+    display: none;
+}
+
+.dropzone .dz-preview .dz-remove {
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    background-color: var(--white);
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.dropzone .dz-preview .dz-remove:after {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    opacity: 1 !important;
+    visibility: visible;
+    z-index: 9999;
+    left: 18px;
+    top: 2px;
+    background: url("../../../../img/cross.svg");
+    background-repeat: no-repeat;
+}
+.dropzone .dz-preview .dz-details .dz-size {
+    display: none;
+}
+
+.dropzone .dz-preview:hover .dz-image img {
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+.dropzone .dz-preview .dz-error-message {
+    top: 70px;
+}
+
+.dropzone .dz-preview .dz-error-message:after {
+    top: -5px;
+}
+.dropzone {
+    min-height: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    height: 184px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dropzone .dz-message {
+    margin: 0 !important;
+}
+
+.dropzone .dz-message .dz-button {
+    position: relative;
+    align-items: center;
+    top: 38px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.dropzone .dz-message .dz-button {
+    color: var(--Black-Grey-Color, var(--B_blue));
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.information_image-upload .dropzone .dz-message .dz-button {
+    background-color: transparent;
+    z-index: -1;
+    top: 0;
+    padding: 17px 10px;
+}
+.information_image-upload .dynamic-dropzone-container {
+    height: 103px;
+}

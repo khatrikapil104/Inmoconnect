@@ -1,0 +1,42 @@
+ul.pagination .active > .page-link,
+ul.pagination .page-link.active {
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--white);
+    box-shadow: 0px 1px 2px 0px rgba(15, 23, 42, 0.04);
+    color: var(--b_primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+ul.pagination .page-item:first-child .page-link {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+ul.pagination .page-link {
+    color: var(--B_blue);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    border: none;
+}
+
+ul.pagination a.page-link {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    background: transparent;
+}
+
+ul.pagination .page-link:focus,
+ul.pagination .page-link:hover,
+li.paginate_button.page-item:hover {
+    background-color: inherit;
+    box-shadow: none;
+}

@@ -1,0 +1,30 @@
+
+.loader {
+    position: relative;
+    /* max-height: 100vh; */
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 160;
+    padding: 10px;
+}
+.loader:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--white);
+    z-index: 100;
+}
+.loader:after {
+    content: "";
+    position: absolute;
+    inset: 50% 0 0 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/loader3.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    background-size: auto 26%;
+    max-width: 15rem;
+    max-height: 15rem;
+    background-color: transparent;
+}

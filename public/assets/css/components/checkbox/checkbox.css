@@ -1,0 +1,150 @@
+input.checkboxone[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: flex;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+input[type="checkbox"][disabled] {
+    background-color: var(--white);
+}
+input[type="checkbox"] {
+    accent-color: var(--b_primary);
+}
+/*  */
+.event-checkbox .switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.event-checkbox .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.event-checkbox .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--b_primary);
+    opacity: 30%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.event-checkbox .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--white);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.event-checkbox input:checked + .slider:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+}
+
+.event-checkbox input:checked + .icon-bell {
+    opacity: 1;
+}
+
+.event-checkbox input:not:checked + .icon-bell {
+    opacity: 0.5;
+}
+.event-checkbox input:checked + .slider {
+    background-color: var(--b_primary);
+    opacity: 1;
+}
+.form-check:hover .form-check-label i {
+    display: none;
+}
+.form-check {
+    padding-left: 0px;
+}
+
+.crm-checkbox-container .form-check-input {
+    display: none;
+}
+
+.common-label-css .form-check-label {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.form-check .form-check-input {
+    margin-left: 0;
+    margin-top: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.crm-checkbox-container .form-check:hover .form-check-input,
+.crm-checkbox-container .form-check-input:checked[type="checkbox"] {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-input:checked {
+    background-color: var(--b_primary);
+    border-color: var(--b_primary);
+}
+
+.form-check-input:focus {
+    border-color: var(--b_primary);
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.crm-checkbox-container
+    .form-check-input:checked[type="checkbox"]
+    ~ .form-check-label
+    i {
+    display: none;
+}
+
+.form-check:hover label {
+    color: var(--b_primary);
+}
+.common-label-css .switch input:disabled {
+    display: none;
+}
+.collabration_button input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+.checkbox_modal input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+.property_checkbox-card .switch {
+    width: 33px;
+    height: 18px;
+}
+.property_checkbox-card .slider:before {
+    width: 15px;
+    height: 15px;
+}
+.property_checkbox-card input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}

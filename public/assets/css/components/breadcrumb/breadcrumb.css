@@ -1,0 +1,57 @@
+.header-title {
+    height: 76px;
+}
+.breadcrumb-top {
+    position: relative;
+}
+.breadcrumb-top::before {
+    background: url(../../../../img/left.svg);
+    width: 7px;
+    height: 12px;
+    position: absolute;
+    content: "";
+    left: 9px;
+    top: 9px;
+}
+.breadcrumb-item.active {
+    color: var(--b_primary);
+}
+.header-right-button:hover {
+    background: var(--Gradient-one);
+    border: 1px solid var(--grey);
+    /* margin-left: 1px;
+    margin-right: 1px; */
+    color: var(--white);
+    opacity: 0.8;
+}
+.header-right-button:hover i {
+    color: var(--white);
+}
+.button_green_team {
+    font-size: 14px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+.green_button_account {
+    background: #e5f8f5;
+    color: #00b69b;
+    cursor: auto !important;
+}
+.pink_button_account {
+    cursor: auto !important;
+    background: #fdebf3;
+    color: #f0368c;
+}
+.button_green-span {
+    padding-left: 8px;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.green_border-team {
+    border-left: 1px solid #00b69b33;
+}
+.pink_border-team {
+    border-left: 1px solid #f0368c33;
+}

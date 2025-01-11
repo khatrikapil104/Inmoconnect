@@ -1,0 +1,59 @@
+.slick-next:before{
+    content: "";
+    background-image: url("../../../../img/property-slider-right.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: center center;
+}
+.slick-prev:before{
+    content: "";
+    background-image: url("../../../../img/property-slider-left.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: center center;
+}
+    .slick-next:before, .slick-prev:before{
+        border-radius: 4px;
+    line-height: 1;
+    opacity: 1;
+    color: #383192;
+    }
+    .slick-next {
+    right: 0;
+    top: 28px;
+}
+.slick-arrow {
+    z-index: 1;
+}
+.slick-prev {
+    left: 0;
+    top: 28px;
+}
+.slick-initialized .slick-slide{
+    text-align:center;
+}
+.slick-track{
+    display: flex;
+    align-items: center;
+}
+.calender_date.tody_appointment_date{
+    border-radius: 8px;
+    background: var(--Main-Colour, #383192);
+    width: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+}
+.calender_date.tody_appointment_date div{
+    color:#fff;
+}
+.slick-initialized .slick-slide{
+    display:flex;
+    justify-content:center;
+}

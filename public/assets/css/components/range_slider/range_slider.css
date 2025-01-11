@@ -1,0 +1,68 @@
+.noUi-target {
+    border-radius: 100px;
+    background: var(--light-grey_seventeen);
+    border: 0px;
+    box-shadow: none;
+}
+
+.noUi-horizontal {
+    height: 5px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    right: -13px;
+    top: -10px;
+    border: 2px solid var(--b_primary);
+    background: var(--white_grey);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.noUi-connect {
+    background: var(--b_primary) !important;
+}
+
+.crm-range-slider-container .input-group {
+    max-width: 130px;
+}
+
+.noUi-touch-area {
+    position: relative;
+    width: 100%;
+}
+
+.noUi-touch-area:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 1px;
+    border-top: 3px solid var(--B_blue);
+    border-bottom: 3px solid var(--B_blue);
+    left: 10px;
+    top: 8px;
+}
+.noUi-handle:after,
+.noUi-handle:before {
+    content: "";
+    position: absolute;
+    height: 5px !important;
+    width: 1px;
+    border-top: 3px solid var(--B_blue);
+    border-bottom: 3px solid var(--B_blue);
+    top: 8px !important;
+    right: -30px;
+}
+.noUi-handle:before {
+    right: calc(100% + 4px);
+}
+.noUi-handle:after {
+    left: 6px !important;
+}

@@ -1,0 +1,109 @@
+.property_view_breadcrumb {
+    position: fixed;
+    z-index: 99999;
+    background-color: #f6f6ff;
+    width: calc(100% - 324px);
+}
+.tab_slider {
+    background-color: #fff;
+    position: fixed !important;
+    top: 126px;
+    width: calc(100% - 445px);
+    z-index: 99998;
+    margin: 0 60px;
+    border: 1px solid #17213a33;
+    box-shadow: 0px 2px 3px 0px #ebebf4;
+    display: inline-block !important;
+}
+.tab_slider.slick-initialized .slick-slide {
+    text-align: center;
+}
+.tab_slider button.tablinks {
+    padding: 18px 0;
+    position: relative;
+}
+.tab_slider button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* padding: 14px 16px; */
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.tab_slider-main .prev,
+.tab_slider-main .next {
+    cursor: pointer;
+    position: fixed;
+    z-index: 99998;
+}
+.tab_slider-main .prev {
+    top: 126px;
+}
+.tab_slider-main .next {
+    top: 126px;
+}
+.tab_slider-main .next {
+    right: 90px;
+}
+.tab_slider-main .prev:before {
+    background-image: url("/img/slider_property_right.svg");
+    width: 60px;
+    height: 58px;
+    position: absolute;
+    content: "" !important;
+    box-shadow: 0px 2px 3px 0px #ebebf4;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #17213a33;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.tab_slider-main .next:before {
+    background-image: url("/img/slider_property_left.svg");
+    width: 60px;
+    height: 58px;
+    position: absolute;
+    content: "" !important;
+    box-shadow: 0px 2px 3px 0px #ebebf4;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #17213a33;
+    border-radius: 0px 10px 10px 0px;
+}
+.tab_slider-view-page {
+    padding-top: 168px;
+}
+.input-group-append {
+    position: absolute;
+    top: 56px;
+    right: 21px;
+}
+.property_per {
+    top: 58px;
+}
+
+span.input-group-text {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+.property_create_textarea #lawyer,
+.property_create_textarea #note_com {
+    height: 145px;
+}
+.input_estimated {
+    position: absolute;
+    top: 45px;
+    right: -84px;
+}
+
+.tab_slider {
+    visibility: hidden;
+}
+
+/* .slick-slider{
+    z-index: 1;
+} */

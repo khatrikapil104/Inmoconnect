@@ -1,0 +1,91 @@
+{
+    "countries": [{
+        "id": "Spain",
+        "text": "Spain"
+    }],
+    "DevelopersCountries": [{
+            "id": "Spain",
+            "text": "Spain"
+        },
+        {
+            "id": "United Kingdom",
+            "text": "United Kingdom"
+        },
+        {
+            "id": "France",
+            "text": "France"
+        },
+        {
+            "id": "India",
+            "text": "India"
+        }
+
+    ],
+
+    "states": [
+        { "id": "A Coruña", "text": "A Coruña", "country": "Spain" },
+        { "id": "Álava", "text": "Álava", "country": "Spain" },
+        { "id": "Albacete", "text": "Albacete", "country": "Spain" },
+        { "id": "Alicante", "text": "Alicante", "country": "Spain" },
+        { "id": "Almería", "text": "Almería", "country": "Spain" },
+        { "id": "Asturias", "text": "Asturias", "country": "Spain" },
+        { "id": "Ávila", "text": "Ávila", "country": "Spain" },
+
+        { "id": "Badajoz", "text": "Badajoz", "country": "Spain" },
+        { "id": "Barcelona", "text": "Barcelona", "country": "Spain" },
+        { "id": "Biscay", "text": "Biscay", "country": "Spain" },
+        { "id": "Burgos", "text": "Burgos", "country": "Spain" },
+
+        { "id": "Cácere", "text": "Cácere", "country": "Spain" },
+        { "id": "Cádiz", "text": "Cádiz", "country": "Spain" },
+        { "id": "Cantabria", "text": "Cantabria", "country": "Spain" },
+        { "id": "Castellón", "text": "Castellón", "country": "Spain" },
+        { "id": "Ciudad Real", "text": "Ciudad Real", "country": "Spain" },
+        { "id": "Córdoba", "text": "Córdoba", "country": "Spain" },
+        { "id": "Cuenca", "text": "Cuenca", "country": "Spain" },
+
+        { "id": "Girona", "text": "Girona", "country": "Spain" },
+        { "id": "Granada", "text": "Granada", "country": "Spain" },
+        { "id": "Guadalajara", "text": "Guadalajara", "country": "Spain" },
+        { "id": "Gipuzkoa", "text": "Gipuzkoa", "country": "Spain" },
+
+        { "id": "Huelva", "text": "Huelva", "country": "Spain" },
+        { "id": "Huesca", "text": "Huesca", "country": "Spain" },
+
+        { "id": "Jaén", "text": "Jaén", "country": "Spain" },
+
+        { "id": "Las Palmas", "text": "Las Palmas", "country": "Spain" },
+        { "id": "León", "text": "León", "country": "Spain" },
+        { "id": "Lleida", "text": "Lleida", "country": "Spain" },
+        { "id": "Lugo", "text": "Lugo", "country": "Spain" },
+
+        { "id": "Madrid", "text": "Madrid", "country": "Spain" },
+        { "id": "Málaga", "text": "Málaga", "country": "Spain" },
+        { "id": "Murcia", "text": "Murcia", "country": "Spain" },
+
+        { "id": "Navarre", "text": "Navarre", "country": "Spain" },
+
+        { "id": "Ourense", "text": "Ourense", "country": "Spain" },
+        { "id": "Palencia", "text": "Palencia", "country": "Spain" },
+        { "id": "Pontevedra", "text": "Pontevedra", "country": "Spain" },
+
+        { "id": "La Rioja", "text": "La Rioja", "country": "Spain" },
+
+        { "id": "Salamanca", "text": "Salamanca", "country": "Spain" },
+        { "id": "Santa Cruz de Tenerife", "text": "Santa Cruz de Tenerife", "country": "Spain" },
+        { "id": "Segovia", "text": "Segovia", "country": "Spain" },
+        { "id": "Seville", "text": "Seville", "country": "Spain" },
+        { "id": "Soria", "text": "Soria", "country": "Spain" },
+
+        { "id": "Tarragona", "text": "Tarragona", "country": "Spain" },
+        { "id": "Teruel", "text": "Teruel", "country": "Spain" },
+        { "id": "Toledo", "text": "Toledo", "country": "Spain" },
+
+        { "id": "Valencia", "text": "Valencia", "country": "Spain" },
+        { "id": "Valladolid", "text": "Valladolid", "country": "Spain" },
+
+        { "id": "Zamora", "text": "Zamora", "country": "Spain" },
+        { "id": "Zaragoza", "text": "Zaragoza", "country": "Spain" }
+
+    ]
+}

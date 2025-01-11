@@ -1,0 +1,394 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a,
+abbr,
+acronym,
+address,
+b,
+bdo,
+big,
+blockquote,
+body,
+br,
+button,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+legend,
+li,
+map,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+a,
+input,
+select,
+textarea {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btn,
+a,
+.btn.focus,
+.btn:focus,
+.btn:hover,
+a:focus,
+a:hover,
+button:focus,
+input:focus {
+    text-decoration: none;
+    outline: 0;
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    box-shadow: none;
+}
+body,
+html {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+img {
+    max-width: 100%;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+.login_form input:-webkit-autofill,
+.login_form input:-webkit-autofill:hover,
+.login_form input:-webkit-autofill:focus,
+.login_form textarea:-webkit-autofill,
+.login_form textarea:-webkit-autofill:hover,
+.login_form textarea:-webkit-autofill:focus,
+.login_form select:-webkit-autofill,
+.login_form select:-webkit-autofill:hover,
+.login_form select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+     .container_coming{
+        max-width:1340px;
+        margin-left:auto;
+        margin-right:auto;
+     }
+     .coming_soon-left h1{
+        color:#383192;
+        font-size:42px;
+        line-height:57px;
+        font-weight:700;
+     }
+     .coming_soon-left h2{
+        color:#17213A;
+        font-size:32px;
+        line-height:43px;
+        font-weight:700;
+        padding-top:20px;
+        padding-bottom:30px;
+     }
+     .coming_two{
+        position:absolute;
+        bottom:10px;
+        z-index:2;
+     }
+     .main_coming{
+        position:relative;
+        height:100vh;
+        overflow:hidden;
+     }
+     .signup{
+        width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #383192;
+    border-radius: 100px;
+    margin: auto;
+}
+#email-signup{
+    border-radius:100%;
+    height: 57px;
+    padding: 0px 20px 0px 20px;
+    width: calc(100% - 140px);
+    background-color: transparent;
+    font-size: 20px;
+    color: #383192;
+    border: none;
+    line-height: 89.28px;
+    font-weight:500;
+}
+#btn{
+  height:50px;
+  width: 139px;
+  background-color:#383192;
+  color:#F3F4F6;
+  border:none;
+  font-size:15px;
+  border-radius:100px;
+  float:right;
+  color:white;
+  top: 5px;
+    position: relative;
+    right: 5px;
+}
+#btn:hover{
+  background: linear-gradient(132.96deg, #3AC5EC 0%, #C547E9 102.13%);
+
+}
+#email-signup:hover{
+  background-color:transparent;
+}
+#email-signup:focus{
+  background-color:transparent;
+}
+
+.coming_four{
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+.coming_five{
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+.coming_one{
+    position: absolute;
+    z-index:2;
+}
+.coming_soon-left{
+    padding: 252px 0 0 0;
+    position:relative;
+    z-index:2;
+}
+.coming-soon-right{
+    padding:20px;
+}
+.coming-soon-right h3{
+    font-size:20px;
+    color:#383192;
+    line-height:27px;
+    font-weight:600;
+    z-index:2;
+}
+.social-icon{
+    display: block;
+    text-align: right;
+    position:relative;
+    z-index:2;
+ 
+}
+.social_icon-one{
+    display: flex;
+    justify-content: end;
+    gap:15px;
+    padding:25px 0 0 0;
+}
+.social_icon-one a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social_icon-one a span{
+    font-size:15px;
+    color:#000000;
+    font-weight:500;
+    padding-top:5px;
+}
+.social_change{
+    padding-right: 43px;
+}
+.coming_seven{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    z-index: 1;
+    max-width: 40%;
+    /* right:0;
+    width: 538px; */
+}
+.signup p{
+    font-size:12px;
+    color:#383192;
+    font-weight:600;
+    padding-top:10px;
+}
+.coming_six{
+    position: absolute;
+    right: -146px;
+    bottom: -151px;
+}
+.coming_eight {
+    position: absolute;
+    right: 0px;
+    z-index:1;
+}
+::placeholder {
+  color: #383192;
+  opacity: 1;
+}
+
+::-ms-input-placeholder { 
+  color: #383192;
+}
+.main_logo{
+    display:none;
+}
+@media (max-width:992px){
+ .coming-soon-responsive{
+    order:2;
+ }
+ .coming_soon-left{
+    padding: 27px 0 0 20px;
+ }
+ .signup{
+    width: 500px;
+    margin: inherit;
+ }
+ .coming_two{
+    bottom: 124px;
+    right: 21px;
+ }
+ .coming-soon-responsive a,.coming_five{
+    display:none;
+ }
+}
+@media (max-width:768px){
+    .coming_one{
+        display: none;
+    }
+    .social_icon-one{
+        justify-content: center;
+    }
+    .social_change{
+        padding-right: 0px;
+    }
+    .coming_soon-left{
+        text-align: center;
+        padding:27px 0 0 0;
+    }
+    .signup{
+        margin:auto;
+    }
+
+}
+@media (max-width:500px){
+    .signup{
+      display:inline-flex;
+      width: 95vw;
+      height:auto;
+      margin:0;
+      flex-wrap:wrap;
+      border-radius:0.2rem;
+      border:none;
+    }
+    .coming_soon-left h2{
+        padding-top: 0px;
+    padding-bottom: 20px;
+    font-size:26px;
+    }
+
+    #btn{
+      width:100%;
+      border-radius:0.2rem;
+      top:0;
+      right:0;
+    }
+    #email-signup{
+        width: 95vw;
+        border-radius: 0.2rem;
+        height: 50px;
+        border: 1px solid #383192;
+        margin-bottom: 9px;
+    }
+    .coming_seven,.coming_four{
+        display:none;
+    }
+    .main_logo{
+        position: absolute;
+    top: 32px;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .coming-soon-right{
+        padding: 80px 20px 20px 20px;
+    }
+    .coming-soon-responsive{
+        order:inherit;
+        padding:40px 0 0 0;
+    }
+    .coming-soon-right h3{
+        font-size: 15px;
+    }
+    .coming_eight{
+        display:none;
+    }
+    .coming_three img{
+        width: 26px;
+    }
+    body{
+        height:100vh;
+        overflow:hidden;
+    }
+  }

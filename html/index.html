@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .main-card {
+            border-radius: 8px;
+            background: #F6F6FF;
+            padding: 10px 20px 10px 10px;
+            height: 100%;
+        }
+
+        .main-card-flex {
+            display: flex;
+        }
+
+        .main-flex {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+
+
+        .d-flex {
+            display: flex !important;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .main-card-button-two {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .main-card-button {
+            display: flex;
+        }
+
+        .button-icon {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .button_two_primary a,
+        .button_two_primary a:hover {
+            color: white;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 15px;
+            border-radius: 4px;
+            background: #383192;
+            padding: 4px 19px;
+            text-decoration: none;
+        }
+
+        .button-abc {
+            display: flex;
+            gap: 10px;
+        }
+
+        .prize-title p {
+            color: var(--Primary-Color, #383192);
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px;
+            /* 128.571% */
+        }
+
+
+
+        img {
+            max-width: 100%;
+        }
+
+        h2 {
+            color: var(--Black-Grey-Color, #17213A);
+
+            /* Headline/H3/Bold/18 */
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            /* 133.333% */
+        }
+
+        p {
+            color: var(--Black-Grey-Color, #17213A);
+
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 15px;
+            /* 125% */
+        }
+
+        svg {
+            /* .svg_first { */
+            max-width: 16px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .main-card_flex {
+            display: flex;
+        }
+
+        .main-card-right {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 0 0 0 20px;
+            justify-content: space-between;
+        }
+
+        .main-card-one-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .main-card-center-one {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .main-card-center-two {
+            display: flex;
+            gap: 20px;
+        }
+
+        .main-card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .main-card-top {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .main-card-bottom h2 {
+                width: 121px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size: 12px;
+            }
+
+            p {
+                font-size: 8px;
+                line-height: 12px;
+            }
+
+            .location_address {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 97px;
+            }
+
+            svg {
+                max-width: 12px;
+            }
+
+            .prize-title p {
+                font-size: 10px;
+            }
+
+            .button_two_primary a,
+            .button_two_primary a:hover {
+                font-size: 8px;
+            }
+
+            .main-card-right {
+                padding: 0 0 0 8px;
+            }
+
+            .main-card-center-two {
+                gap: 8px;
+            }
+
+            .main-card-center-one {
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-card">
+            <div class="main-card_flex">
+                <div class="main-card-left">
+                    <div class="main-card-img">
+                        <img src="image/Frame 229 (1).png" alt="image">
+                    </div>
+                </div>
+                <div class="main-card-right">
+                    <div class="main-card-top">
+                        <div class="main-card-one-header">
+                            <div class="main-card-bottom">
+                                <div class="property-title">Awesome Interior Apartment</div>
+                            </div>
+                            <div class="main-card-button-two">
+                                <div class="button-abc ">
+                                    <div class="buton_a button_two_primary">
+                                        <a href="#">button</a>
+                                    </div>
+                                    <div class="buton_a button_two_primary">
+                                        <a href="#">button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-card-center-one">
+                            <div class="d-flex d-flex align-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-0-circle svg_first" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8" />
+                                </svg>
+                                <div class="property-secondary">Bellavista 79, Santibáñez De Vidriales, Zamora, 49610</div>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-0-circle svg_first" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8" />
+                                </svg>
+                                <div class="property-secondary">Devon Lane</div>
+                            </div>
+                        </div>
+                        <div class="main-card-center-two">
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-0-circle" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8" />
+                                </svg>
+                                <div class="property-secondary">2</div>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-0-circle" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8" />
+                                </svg>
+                                <div class="property-secondary">2</div>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-0-circle" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8" />
+                                </svg>
+                                <div class="property-secondary">2</div>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-0-circle" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8" />
+                                </svg>
+                                <div class="property-secondary">abc</div>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-0-circle" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8" />
+                                </svg>
+                                <div class="property-secondary">abc</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card-footer">
+                        <div class="prize-title">
+                            <div class="property-price">$4580.00</div>
+                        </div>
+                        <div class="button-icon">
+                            <div class="button-icon_one">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <path
+                                        d="M9 4C9.82843 4 10.5 3.32843 10.5 2.5C10.5 1.67157 9.82843 1 9 1C8.17157 1 7.5 1.67157 7.5 2.5C7.5 3.32843 8.17157 4 9 4Z"
+                                        stroke="#383192" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M3 7.5C3.82843 7.5 4.5 6.82843 4.5 6C4.5 5.17157 3.82843 4.5 3 4.5C2.17157 4.5 1.5 5.17157 1.5 6C1.5 6.82843 2.17157 7.5 3 7.5Z"
+                                        stroke="#383192" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M9 11C9.82843 11 10.5 10.3284 10.5 9.5C10.5 8.67157 9.82843 8 9 8C8.17157 8 7.5 8.67157 7.5 9.5C7.5 10.3284 8.17157 11 9 11Z"
+                                        stroke="#383192" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.29492 6.75488L7.70992 8.74488" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7.70492 3.25488L4.29492 5.24488" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="button-icon_one">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_2983_54185)">
+                                        <path
+                                            d="M9.44531 0.630469C9.21563 0.663281 8.98125 0.759375 8.80078 0.897656C8.66484 1.00312 8.22656 1.43437 8.22656 1.4625C8.22656 1.49531 10.5047 3.77344 10.5375 3.77344C10.5656 3.77344 10.9664 3.36797 11.093 3.20859C11.2641 2.99766 11.3906 2.63203 11.3906 2.35547C11.3906 2.17266 11.3297 1.92656 11.2359 1.73438C11.1609 1.58203 11.1 1.50937 10.7953 1.20469C10.4203 0.832031 10.2867 0.738281 10.0289 0.672656C9.86016 0.628125 9.60234 0.609375 9.44531 0.630469Z"
+                                            fill="#383192" />
+                                        <path
+                                            d="M2.10938 1.65226C1.34297 1.81867 0.745315 2.45382 0.632815 3.22257C0.618752 3.3257 0.609377 4.53742 0.609377 6.50617C0.609377 9.93976 0.607034 9.85773 0.752346 10.2093C0.94219 10.6616 1.275 11.0109 1.71797 11.2148C2.09297 11.3882 1.82813 11.3765 5.4 11.3835C8.92266 11.3929 8.83125 11.3952 9.19922 11.2523C9.65156 11.0788 10.0688 10.664 10.2492 10.214C10.3805 9.88585 10.3828 9.84367 10.3828 8.10929C10.3828 6.35148 10.3875 6.41242 10.2352 6.29523C10.0477 6.15226 9.77344 6.21085 9.66328 6.42179L9.60938 6.52257V8.08117C9.60938 9.78976 9.60938 9.79679 9.46641 10.0452C9.31641 10.3101 9.01406 10.5304 8.72344 10.5913C8.63672 10.6101 7.66406 10.6171 5.48906 10.6171C2.11172 10.6171 2.25703 10.6218 1.99453 10.4905C1.8375 10.4109 1.64531 10.2257 1.54688 10.064C1.37578 9.78038 1.38516 9.9796 1.38516 6.51554C1.38281 3.09835 1.37813 3.25538 1.52813 2.97179C1.61485 2.80773 1.84453 2.58507 2.00625 2.50773C2.25469 2.39054 2.25235 2.39054 3.91406 2.39054C5.3836 2.39054 5.47735 2.38585 5.56875 2.34601C5.71406 2.28038 5.77735 2.17492 5.77735 1.99913C5.77735 1.8421 5.73985 1.76945 5.61563 1.67804C5.55235 1.62882 5.52891 1.62882 3.90703 1.62413C2.57578 1.62179 2.2336 1.62648 2.10938 1.65226Z"
+                                            fill="#383192" />
+                                        <path
+                                            d="M5.53822 4.14816C3.19916 6.49894 3.30229 6.3841 3.25775 6.70988C3.24838 6.78957 3.20854 7.18332 3.17338 7.58644C3.1101 8.28957 3.1101 8.32238 3.1476 8.44191C3.19916 8.60597 3.33041 8.75832 3.47807 8.82629C3.6351 8.89894 3.75229 8.89894 4.65229 8.81457C5.37885 8.74425 5.50072 8.72082 5.66947 8.62004C5.76322 8.56379 10.0078 4.338 10.0078 4.3005C10.0078 4.26769 7.72963 1.99191 7.69916 1.99425C7.6851 1.99425 6.71244 2.96457 5.53822 4.14816Z"
+                                            fill="#383192" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2983_54185">
+                                            <rect width="12" height="12" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="button-icon_one">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <path d="M1.5 3H2.5H10.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M9.5 3V10C9.5 10.2652 9.39464 10.5196 9.20711 10.7071C9.01957 10.8946 8.76522 11 8.5 11H3.5C3.23478 11 2.98043 10.8946 2.79289 10.7071C2.60536 10.5196 2.5 10.2652 2.5 10V3M4 3V2C4 1.73478 4.10536 1.48043 4.29289 1.29289C4.48043 1.10536 4.73478 1 5 1H7C7.26522 1 7.51957 1.10536 7.70711 1.29289C7.89464 1.48043 8 1.73478 8 2V3"
+                                        stroke="#383192" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M5 5.5V8.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 5.5V8.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="button-icon_one">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <path d="M1.5 3H2.5H10.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M9.5 3V10C9.5 10.2652 9.39464 10.5196 9.20711 10.7071C9.01957 10.8946 8.76522 11 8.5 11H3.5C3.23478 11 2.98043 10.8946 2.79289 10.7071C2.60536 10.5196 2.5 10.2652 2.5 10V3M4 3V2C4 1.73478 4.10536 1.48043 4.29289 1.29289C4.48043 1.10536 4.73478 1 5 1H7C7.26522 1 7.51957 1.10536 7.70711 1.29289C7.89464 1.48043 8 1.73478 8 2V3"
+                                        stroke="#383192" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M5 5.5V8.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 5.5V8.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="button-icon_one">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <path d="M1.5 3H2.5H10.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M9.5 3V10C9.5 10.2652 9.39464 10.5196 9.20711 10.7071C9.01957 10.8946 8.76522 11 8.5 11H3.5C3.23478 11 2.98043 10.8946 2.79289 10.7071C2.60536 10.5196 2.5 10.2652 2.5 10V3M4 3V2C4 1.73478 4.10536 1.48043 4.29289 1.29289C4.48043 1.10536 4.73478 1 5 1H7C7.26522 1 7.51957 1.10536 7.70711 1.29289C7.89464 1.48043 8 1.73478 8 2V3"
+                                        stroke="#383192" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M5 5.5V8.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 5.5V8.5" stroke="#383192" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

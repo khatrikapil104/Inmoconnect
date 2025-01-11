@@ -1,0 +1,118 @@
+.slick-list .slick-slide {
+    font-size: 30px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 5px;
+    height: auto;
+}
+
+.slick-slide.slick-current.slick-active {
+    margin-left: 0;
+}
+.slick-arrow {
+    z-index: 1;
+}
+
+.slick-arrow:before {
+    font-size: 30px;
+}
+.slick-next {
+    right: 15px;
+    top: 14px;
+}
+.slick-prev {
+    left: calc(100% - 86px);
+    top: 14px;
+}
+.slick-list.draggable {
+    padding-top: 60px;
+}
+.slick-next.slick-disabled:before,
+.slick-prev.slick-disabled:before {
+    opacity: 1;
+}
+.slick-slider .slick-disabled {
+    opacity: 1;
+}
+.slick-next:before,
+.slick-prev:before {
+    opacity: 1;
+}
+.my-project_dashboar ul.slick-dots {
+    justify-content: end;
+}
+.my-project_dashboar .slick-dots {
+    top: 14px;
+    left: -100px;
+}
+.my-project_dashboar .slick-dots li button {
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    background-color: #8f77ea;
+}
+.my-project_dashboar .slick-dots li.slick-active button {
+    background-color: #383192;
+}
+.my-project_dashboar .slick-dots li button:before {
+    content: "";
+}
+.my-project_dashboar .slick-dots li {
+    width: 0px;
+    height: 0px;
+}
+.slick-next:before {
+    content: "";
+    background-image: url("../../../../img/slider_left.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: center center;
+}
+.slick-prev:before {
+    content: "";
+    background-image: url("../../../../img/slider_right.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: center center;
+}
+.slick-arrow:before {
+    font-size: 18px;
+    padding: 5px 8px;
+}
+.slick-next:before,
+.slick-prev:before {
+    border-radius: 4px;
+    border: 1px solid #383192;
+    line-height: 1;
+    opacity: 1;
+    color: #383192;
+}
+.slick_list_main_text {
+    margin-bottom: -30px;
+}
+
+.slick-track {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.slick-track:first-child {
+    gap: 0;
+}
+@media only screen and (max-width: 576px) {
+    .slick-prev {
+        left: 80%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .slick-prev {
+        left: 73%;
+    }
+}

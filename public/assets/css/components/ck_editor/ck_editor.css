@@ -1,0 +1,80 @@
+.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+    height: 150px;
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+    border-color: var(--B_blue) !important;
+}
+.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+    border-radius: 8px !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0px 23px;
+}
+textarea#notes {
+    height: 118px;
+}
+.ck-reset_all :not(.ck-reset_all-excluded *),
+.ck.ck-reset_all {
+    z-index: 1;
+    position: relative;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor_nested.editable) {
+    box-shadow: none;
+    border-color: var(--b_primary) !important;
+}
+
+.ck.ck-editor__editable.ck-focused .ck.ck-sticky-panel__content {
+    z-index: 0 !important;
+    position: relative !important;
+}
+
+.ck-sticky-panel__content_sticky {
+    position: relative !important;
+    z-index: 0 !important;
+}
+
+.ck.ck-editor__editable_inline {
+    z-index: 0 !important;
+    position: relative !important;
+    padding: 0 30px !important;
+}
+
+#description_editor {
+    z-index: 0 !important;
+    position: relative !important;
+}
+.ck.ck-toolbar > .ck-toolbar__items {
+    z-index: 1;
+}
+.textarea_abc {
+    margin-top: -16px;
+}
+
+.textarea_abc .ck.ck-toolbar.ck-toolbar_grouping {
+    background: var(--white_eighteen);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 0;
+}
+
+.textarea_abc .ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+    border-radius: 8px 8px 8px 8px !important;
+}
+.ck-reset_all :not(.ck-reset_all-excluded *),
+.ck.ck-reset_all {
+    display: none;
+}
+#dataFilterModal
+    .textarea_abc
+    .ck-rounded-corners
+    .ck.ck-editor__main
+    > .ck-editor__editable,
+#dataFilterModal .ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+    border-radius: 0px 0px 8px 8px !important;
+}

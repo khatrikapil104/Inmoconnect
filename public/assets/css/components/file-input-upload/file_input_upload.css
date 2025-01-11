@@ -1,0 +1,82 @@
+.default-file-input {
+    display: none;
+}
+.header-input-file input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.header-input-file label {
+    padding: 4px 7px;
+    cursor: pointer;
+}
+.input-file_choose {
+    overflow: hidden;
+    text-align: left;
+    height: 42px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--Black-Colour, var(--B_blue));
+    background: var(--white_twenty);
+}
+
+.input-file_choose span {
+    background-color: var(--white_ninteen);
+    padding: 12px 40px;
+    color: var(--B_blue);
+    font-size: 14px;
+    line-height: 18px;
+    border-right: 1px solid var(--B_blue);
+}
+.common-attachment .input-file_choose {
+    height: 42px;
+    width: calc(100% - 71%);
+    color: #565a90;
+    border-radius: 8px;
+    background: #fcfcfc;
+    border-color: var(--B_blue);
+    border-width: 0px 1px 0px 0px;
+}
+
+.common-attachment .input-file_choose::file-selector-button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    height: 42px;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+    cursor: pointer;
+    border-radius: 8px 0px 0px 8px;
+    border-right: 1px solid var(--Black-Colour, #17213a);
+    background: #f6faff;
+    color: var(--Black-Colour, #17213a);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+    width: 150px;
+}
+
+.common-attachment .form-group_file {
+    background-color: #fcfcfc;
+    border: 1px solid var(--B_blue);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.common-attachment .certificate_name {
+    height: 26px;
+}
+
+.common-attachment .attachment_scroll {
+    height: 42px;
+    overflow-y: auto;
+    padding: 7px 0px;
+}
+.common-attachment .input_property-file {
+    width: 150px;
+}

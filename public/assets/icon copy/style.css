@@ -1,0 +1,383 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("fonts/icomoon.eot?2198z2");
+    src: url("fonts/icomoon.eot?2198z2#iefix") format("embedded-opentype"),
+        url("fonts/icomoon.ttf?2198z2") format("truetype"),
+        url("fonts/icomoon.woff?2198z2") format("woff"),
+        url("fonts/icomoon.svg?2198z2#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Black-12:before {
+    content: "\e935";
+}
+.icon-user-name:before {
+    content: "\e905";
+}
+.icon-phone:before {
+    content: "\e904";
+}
+.icon-home-hand:before {
+    content: "\e903";
+}
+.icon-reset:before {
+    content: "\e934";
+}
+.icon-house-lock:before {
+    content: "\e933";
+}
+.icon-Number:before {
+    content: "\e931";
+}
+.icon-round:before {
+    content: "\e932";
+}
+.icon-success-icon:before {
+    content: "\e92c";
+    color: #00a510;
+}
+.icon-confirm-icon:before {
+    content: "\e92b";
+}
+.icon-error-icon:before {
+    content: "\e92d";
+}
+.icon-dashboard:before {
+    content: "\e909";
+}
+.icon-bell:before {
+    content: "\e908";
+}
+.icon-Delete-Icon:before {
+    content: "\e906";
+}
+.icon-Mail :before {
+    content: "\e907";
+}
+.icon-my_profile:before {
+    content: "\e939";
+}
+.icon-Facilites-Icon:before {
+    content: "\e93a";
+}
+.icon-Facilites-Icon-1:before {
+    content: "\e93b";
+}
+.icon-Facilites-Icon-2:before {
+    content: "\e93c";
+}
+.icon-Facilites-Icon-3:before {
+    content: "\e93d";
+}
+.icon-Facilites-Icon-4:before {
+    content: "\e93e";
+}
+.icon-Facilites-Icon-5:before {
+    content: "\e93f";
+}
+.icon-Facilites-Icon-6:before {
+    content: "\e940";
+}
+.icon-Facilites-Icon-7:before {
+    content: "\e941";
+}
+.icon-Facilites-Icon-8:before {
+    content: "\e942";
+}
+.icon-Facilites-Icon-9:before {
+    content: "\e943";
+}
+.icon-Frame-237:before {
+    content: "\e944";
+}
+.icon-location-2:before {
+    content: "\e945";
+}
+.icon-Menu-Icons:before {
+    content: "\e946";
+}
+.icon-type:before {
+    content: "\e92e";
+}
+.icon-image-1-traced-2:before {
+    content: "\e930";
+    color: #383192;
+}
+.icon-warning-icon:before {
+    content: "\e92f";
+}
+.icon-Logout:before {
+    content: "\e901";
+}
+.icon-Change-password:before {
+    content: "\e914";
+}
+.icon-Home:before {
+    content: "\e902";
+}
+.icon-cloud-download_13-1-2:before {
+    content: "\e90d";
+}
+.icon-house_id :before {
+    content: "\e90e";
+}
+.icon-scale:before {
+    content: "\e90f";
+}
+.icon-floor:before {
+    content: "\e912";
+}
+.icon-bathroom:before {
+    content: "\e910";
+}
+.icon-bed:before {
+    content: "\e911";
+}
+.icon-time:before {
+    content: "\e913";
+}
+.icon-edit:before {
+    content: "\e915";
+    color: #383192;
+}
+.icon-home:before {
+    content: "\e916";
+    color: #383192;
+}
+.icon-search:before {
+    content: "\e917";
+}
+.icon-search-user:before {
+    content: "\e918";
+}
+.icon-modal-img:before {
+    content: "\e91a";
+    color: #383192;
+}
+.icon-Logo-header-2 .path1:before {
+    content: "\e91c";
+    color: rgb(0, 0, 0);
+}
+.icon-Logo-header-2 .path2:before {
+    content: "\e91d";
+    margin-left: -7.25em;
+    color: rgb(0, 0, 0);
+}
+.icon-Logo-header-2 .path3:before {
+    content: "\e91e";
+    margin-left: -7.25em;
+    color: rgb(0, 0, 0);
+}
+.icon-Logo-header-2 .path4:before {
+    content: "\e91f";
+    margin-left: -7.25em;
+    color: rgb(0, 0, 0);
+}
+.icon-Logo-header-2 .path5:before {
+    content: "\e920";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path6:before {
+    content: "\e921";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path7:before {
+    content: "\e922";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path8:before {
+    content: "\e923";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path9:before {
+    content: "\e924";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path10:before {
+    content: "\e925";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path11:before {
+    content: "\e926";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path12:before {
+    content: "\e927";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path13:before {
+    content: "\e928";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path14:before {
+    content: "\e929";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-Logo-header-2 .path15:before {
+    content: "\e92a";
+    margin-left: -7.25em;
+    color: rgb(243, 244, 246);
+}
+.icon-man-1-1-traced:before {
+    content: "\e9f4";
+}
+.icon-sidebar-1:before {
+    content: "\e9f5";
+}
+.icon-sidebar-2:before {
+    content: "\e9f6";
+}
+.icon-collapse-:before {
+    content: "\e9f7";
+}
+.icon-cross:before {
+    content: "\eabf";
+}
+.icon-twitter-logo:before {
+    content: "\eac0";
+    color: #1d9bf0;
+}
+.icon-google-logo .path1:before {
+    content: "\eac2";
+    color: rgb(66, 133, 244);
+}
+.icon-google-logo .path2:before {
+    content: "\eac3";
+    margin-left: -1em;
+    color: rgb(52, 168, 83);
+}
+.icon-google-logo .path3:before {
+    content: "\eac4";
+    margin-left: -1em;
+    color: rgb(251, 188, 5);
+}
+.icon-google-logo .path4:before {
+    content: "\ead4";
+    margin-left: -1em;
+    color: rgb(234, 67, 53);
+}
+.icon-header-logo .path1:before {
+    content: "\eac5";
+    color: rgb(0, 0, 0);
+}
+.icon-header-logo .path2:before {
+    content: "\eac6";
+    margin-left: -7.1748046875em;
+    color: rgb(0, 0, 0);
+}
+.icon-header-logo .path3:before {
+    content: "\eac7";
+    margin-left: -7.1748046875em;
+    color: rgb(0, 0, 0);
+}
+.icon-header-logo .path4:before {
+    content: "\eac8";
+    margin-left: -7.1748046875em;
+    color: rgb(0, 0, 0);
+}
+.icon-header-logo .path5:before {
+    content: "\eac9";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path6:before {
+    content: "\eaca";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path7:before {
+    content: "\eacb";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path8:before {
+    content: "\eacc";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path9:before {
+    content: "\eacd";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path10:before {
+    content: "\eace";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path11:before {
+    content: "\eacf";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path12:before {
+    content: "\ead0";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path13:before {
+    content: "\ead1";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path14:before {
+    content: "\ead2";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-header-logo .path15:before {
+    content: "\ead3";
+    margin-left: -7.1748046875em;
+    color: rgb(56, 49, 146);
+}
+.icon-man-1-1-traced1:before {
+    content: "\e900";
+}
+.icon-user:before {
+    content: "\ead5";
+}
+.icon-property-search:before {
+    content: "\eac1";
+}
+.icon-property-listing:before {
+    content: "\e9f2";
+}
+.icon-collapse:before {
+    content: "\e91b";
+}
+.icon-line-user:before {
+    content: "\e919";
+    color: #f3f4f6;
+}
+.icon-announcement:before {
+    content: "\e90b";
+    color: #f3f4f6;
+}
